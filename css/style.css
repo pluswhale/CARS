@@ -50,10 +50,10 @@ h1,h2,h3,h4,h5,h6 {
 /* Header start */
 
 .header {
-    width: 100px;
+    width: 100%;
     position: absolute;
     top: 0;
-    left: 350px;
+    left: 0;
     z-index: 3;
 }
 
@@ -104,7 +104,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .nav__link:hover:after {
     opacity: 1;
-}
+} 
 
 .header__lng {
     display: flex;
@@ -112,6 +112,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .header__logo { 
+    align-items: center;
     display: inline-block;
 }
 
